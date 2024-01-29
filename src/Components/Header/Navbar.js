@@ -93,21 +93,17 @@ const Navbar = () => {
         }
       >
         <ul className="h-full w-full text-center pt-12">
-          <li className="text-lg py-7">
-            <NavLink to="/apousada">{t("nav.house")}</NavLink>
+          <li className="text-lg py-6">
+            <NavLink to="/apousada">{t("nav1.house")}</NavLink>
           </li>
-          <li className="text-lg py-7">
-            <NavLink to="/acomodacoes">{t("nav.accommodation")}</NavLink>
+          <li className="text-lg py-6">
+            <NavLink to="/acomodacoes">{t("nav2.accommodation")}</NavLink>
           </li>
-          <li className="text-lg py-7">
-            <NavLink to="/avila">{t("nav.village")}</NavLink>
+          <li className="text-lg py-6">
+            <NavLink to="/avila">{t("nav3.village")}</NavLink>
           </li>
-          <li className="text-lg py-7">
-            <Link
-              to={"https://www.booking.com/hotel/br/villa-marinella.pt-br.html"}
-            >
-              {t("nav.reservation")}
-            </Link>
+          <li className="text-lg py-6">
+            <NavLink to="/reservas">{t("nav4.reservation")}</NavLink>
           </li>
           <li>
             <button onClick={() => handleChangeLanguage("en")} className="px-6">
