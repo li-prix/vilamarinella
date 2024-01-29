@@ -9,11 +9,15 @@ module.exports = {
         md: "824px",
         lg: "1024px",
       },
+
+      fontFamily: {
+        calligra: ["Calligraffitti, cursive"],
+      },
       backgroundImage: {
-        hero: "url('./Assets/Images/jardim.jpg')",
-        heromob: "url('./Assets/Images/frente3.jpg')",
+        "hero-home": "url('./img/jardim.jpg')",
+        "hero-mob": "url('./img/frente.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };

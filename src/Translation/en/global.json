@@ -1,14 +1,41 @@
 {
-  "nav1": {
-    "house": "The Guesthouse"
-  },
-  "nav2": {
-    "accommodation": "Accommodations"
-  },
-  "nav3": {
-    "village": "The Village of Jericoacoara"
-  },
-  "nav4": {
+  "nav": {
+    "house": "The Guesthouse",
+    "accommodation": "Accommodations",
+    "village": "The Village of Jericoacoara",
     "reservation": "Reservations"
+  },
+
+  "home": {
+    "title": "Live the best of Jericoacoara at the Vila",
+    "desc": "At Vila Marinella you live the best of Jericoacoara with your family, friends or your loved one.",
+    "viladesc": "The guesthouse is composed of: 🏠 A 120m² house for up to 6 people, with three bedrooms, one of which is a suite with a large double bed, and other two bedrooms with single beds. The house has air conditioning in all bedrooms, complete kitchen and living room, a barbecue area and a terrace overlooking the beach of Jericoacoara. 🛌 Another 3 independent suites, which can be rented separately, with balcony, large double bed, private bathroom, TV, air conditioning and minibar.",
+    "title2": "The Village of Jericoacoara",
+    "desc2": "Jericoacoara is a small fishing village with beautiful beaches and a windsurfing and kitesurfing hub, located in Ceará, Brazil."
+  },
+
+  "footer": {
+    "location": "Location",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "privacy": "Privacy Policy",
+    "privacyPTEN": "Your privacy is important to us. It is Vila Marinella Jeri's policy to respect your privacy regarding any information we may collect from you across our website, Vila Marinella Jeri, and other sites we own and operate.We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.We don’t share any personally identifying information publicly or with third-parties, except when required to by law.Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services.Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.User's responsibilitiesThe user undertakes the responsibility to make appropriate use of the contents and information offered on the site with enunciative, but not imitative, behaviour:A) Not to engage in activities that are illegal or contrary to good faith and public order;B) Not to spread propaganda or content of a racist, xenophobic or gambling nature, any type of illegal pornography, terrorist claims or against human rights;C) Do not cause damage to physical systems (hardware) and unattainable (software) of Vila Marinella Jeri, its suppliers or third parties, to introduce or disseminate computer viruses or any other hardware or software systems that are capable of causing damage previously mentioned.More informationHopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.This policy is effective as of 24 January 2024 22:03."
+  },
+  "pousada": {
+    "title": "The Guesthouse",
+    "desc": "The guesthouse is located in a quiet area of Jericoacoara, just 500m (1/3mi) from the Main Street and 1km (1/2mi) from the beach. It has two types of accommodation: a 120m² (1300 ft²) house, 3 bedrooms including a suite, 2 shared bathrooms, a complete living room and kitchen, and a small barbecue area. All rooms have air conditioning and there is free Wifi available. Besides the house, there are other 3 independent suites for up to 2 people, with private bathroom, balcony, air conditioning, minibar, TV and Wi-Fi. To make your experience even more remarkable, the Vila has a beautiful terrace overlooking Jericoacoara's beach."
+  },
+  "acom": {
+    "title": "Accommodations",
+    "desc": "Vila Marinella has two types of accommodation: a house with three bedrooms for up to 6 people, and 3 private suites for 2 people",
+    "title2": "The House",
+    "desc2": "A big house for up to 6 people, with three bedrooms, one of which is a suite with a large double bed and the other two bedrooms with single beds. The house has air conditioning in all bedrooms, a complete kitchen and living room, a barbecue area and a terrace overlooking the village of Jericoacoara.",
+    "people": "6 people",
+    "people1": "2 people",
+    "title3": "The Private Rooms",
+    "desc3": "3 private suites for 2 people, with bathroom, air conditioning, TV and minibar."
+  },
+  "avila": {
+    "soon": "Comming Soon"
   }
 }

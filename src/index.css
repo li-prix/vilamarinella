@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-h1 {
+  @apply text-center font-semibold text-4xl text-cyan-800 mb-5;
+}
+.my-pd {
+  @apply text-center font-medium leading-snug text-cyan-800;
+}
