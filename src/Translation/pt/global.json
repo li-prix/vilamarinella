@@ -1,14 +1,39 @@
 {
-  "nav1": {
-    "house": "A Pousada"
-  },
-  "nav2": {
-    "accommodation": "Acomodações"
-  },
-  "nav3": {
-    "village": "A Vila de Jericoacoara"
-  },
-  "nav4": {
+  "nav": {
+    "house": "A Pousada",
+    "accommodation": "Acomodações",
+    "village": "A Vila de Jericoacoara",
     "reservation": "Reservas"
+  },
+  "home": {
+    "title": "Viva seus melhores dias na Vila",
+    "desc": "Na Vila Marinella você vive seus melhores dias em Jericoacoara com a sua família, amigos ou ao lado da pessoa que você ama.",
+    "viladesc": "A vila é composta de: 🏠 Casa com 120m² para até 6 pessoas, com três quartos, sendo uma uma suíte com uma cama de casal grande e outros dois quartos com camas de solteiro. A casa conta com ar-condicionado em todos os quartos, cozinha e sala completas, churrasqueira e um terraço com vista para a vila de Jericoacoara. 🛌 3 suítes privativas com varanda, cama de casal grande, banheiro privativo, TV, ar-condicionado e frigobar.",
+    "title2": "A Vila de Jericoacoara",
+    "desc2": "Jericoacoara é uma pequena vila de pescadores, centro do windsurf e kitesurf, no Ceará, Brasil."
+  },
+  "footer": {
+    "location": "Localização",
+    "contact": "Contato",
+    "follow": "Siga-nos",
+    "privacy": "Política de Privacidade",
+    "privacyPTEN": "A sua privacidade é importante para nós. É política do Vila Marinella Jeri respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Vila Marinella Jeri, e outros sites que possuímos e operamos.Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.Compromisso do UsuárioO usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Vila Marinella Jeri oferece no site e com caráter enunciativo, mas não limitativo:A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;B) Não difundir propaganda ou conteúdo de natureza racista, xenofóbica, kiwibet ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Vila Marinella Jeri, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.Mais informaçõesEsperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.Esta política é efetiva a partir de 24 January 2024 21:48"
+  },
+  "pousada": {
+    "title": "A Pousada",
+    "desc": "A pousada está localizada em uma área tranquila de Jericoacoara a apenas 500m da Rua Principal e 1km da praia. A pousada conta com dois tipos de hospedagem: uma casa com 120m², 3 quartos sendo uma suíte, 2 banheiros compartilhados, sala e cozinha completas e uma área com churrasqueira. Todos os quartos possuem ar-condicionado e WiFi gratuito. A pousada também conta com 3 suítes independentes, com banheiro privativo, varanda, ar-condicionado, frigobar, TV e Wifi. Para completar sua experiência, a Vila conta com um belo terraço com vista para a para de Jericoacoara"
+  },
+  "acom": {
+    "title": "Acomodações",
+    "desc": "A Vila possui dois tipos de acomodações: uma casa com três quartos para até 6 pessoas, e 3 suítes privativas para 2 pessoas",
+    "title2": "A Casa",
+    "desc2": " Casa com 120m² para até 6 pessoas, com três quartos, sendo uma uma suíte com uma cama de casal grande e outros dois quartos com camas de solteiro. A casa conta com ar-condicionado em todos os quartos, cozinha e sala completas, churrasqueira e um terraço com vista para a vila de Jericoacoara.",
+    "people": "6 pessoas",
+    "people1": "2 pessoas",
+    "title3": "Suítes",
+    "desc3": "3 suítes privativas para 2 pessoas, com banheiro, ar-condicionado, TV e frigobar."
+  },
+  "avila": {
+    "soon": "Em breve"
   }
 }

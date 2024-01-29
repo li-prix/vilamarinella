@@ -1,10 +1,11 @@
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <div className="w-full h-[100vh]">
-      <div
-        className="bg-hero max-[680px]:bg-heromob w-full h-full bg-cover
-         bg-no-repeat bg-center"
-      ></div>
+    <div className="w-full overflow-hidden">
+      <img
+        src={props.img}
+        className="w-full h-dvh object-cover"
+        alt={props.alt}
+      />
     </div>
   );
 };

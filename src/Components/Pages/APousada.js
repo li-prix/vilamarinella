@@ -1,24 +1,69 @@
-import sala from "../../Assets/Images/sala.jpg";
+import { useTranslation } from "react-i18next";
+import Divider from "../Concept/Divider";
+import Hero from "../Header/Hero";
 
 const APousada = () => {
+  const [t] = useTranslation("global");
+
   return (
-    <div className="">
-      <img src={sala} alt="Sala" />
+    <div>
+      <Hero
+        img={"https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/sala.jpg"}
+        alt={"sala"}
+      />
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        venenatis nisi vitae quam varius, id congue mauris auctor. Duis
-        vestibulum tellus ligula, a porttitor mauris porta at. Maecenas euismod,
-        sem ac aliquam euismod, nulla erat bibendum erat, sit amet aliquam erat
-        erat eu est. Donec et aliquet turpis. Suspendisse non augue vel orci
-        accumsan imperdiet. Phasellus eu turpis suscipit, eleifend felis
-        dapibus, ultricies enim. Mauris rhoncus luctus leo, bibendum ultricies
-        elit accumsan sit amet. Morbi vitae metus consequat, faucibus tellus
-        quis, venenatis arcu. Sed blandit fermentum tortor at pellentesque. Duis
-        ac gravida justo. Curabitur odio orci, pulvinar pretium dignissim id,
-        semper at velit. Vestibulum laoreet risus nec tincidunt aliquet. Aliquam
-        ut nibh id leo luctus gravida. Cras blandit fringilla tincidunt. Aenean
-        lacinia dolor sit amet ex iaculis scelerisque. Vivamus in malesuada
-        ligula.
+        <Divider
+          dividerHead={t("pousada.title")}
+          dividerDesc={t("pousada.desc")}
+        />
+      </div>
+      <div className="w-full">
+        <div className="grid-cols-3 md:px-20 md:py-28 bg-cyan-800 lg:space-y-0 lg:grid lg:grid-rows-1">
+          <div className="w-full">
+            <img
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/fachada.jpg"
+              alt="fachada"
+            />
+          </div>
+          <div className="w-full col-span-2 row-span-2">
+            <img
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/jardim.jpg"
+              alt="jardim"
+            />
+          </div>
+          <div className="w-full">
+            <img
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/terraco.jpg"
+              alt="terraco"
+            />
+          </div>
+          <div className="w-full">
+            <img
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/salatv.jpg"
+              alt="salatv"
+            />
+          </div>
+          <div className="w-full">
+            <img
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/suite.jpg"
+              alt="suite"
+            />
+          </div>
+          <div className="w-full">
+            <img
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/sala.jpg"
+              alt="sala"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex md:p-12 sm:p-5 justify-center w-full h-full">
+        <video
+          className="w-full h-dvh"
+          src="/video.mp4#t=0.001"
+          controls
+          type="video/mp4"
+        ></video>
       </div>
     </div>
   );
