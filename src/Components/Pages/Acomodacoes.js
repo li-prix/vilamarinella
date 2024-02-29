@@ -8,7 +8,7 @@ import { faWifi, faPeopleRoof } from "@fortawesome/free-solid-svg-icons";
 const Acomodacoes = () => {
   const [t] = useTranslation("global");
 
-  let slides = [
+  const slides = [
     "https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/sala.jpg",
     "https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/acom/casa/acozinha.jpg",
     "https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/acom/casa/asuite.jpg",
@@ -32,7 +32,7 @@ const Acomodacoes = () => {
         alt={"suite"}
       />
       <Divider dividerHead={t("acom.title")} dividerDesc={t("acom.desc")} />
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 bg-cyan-800 md:p-12">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 bg-sky-700 md:p-12">
         <div className="col-span-2">
           <Carousel slides={slides} />
         </div>
@@ -58,6 +58,7 @@ const Acomodacoes = () => {
             <FontAwesomeIcon icon={faPeopleRoof} />
             <span className="m-2">{t("acom.people1")}</span>
             <FontAwesomeIcon icon={faWifi} className="mx-2" />
+            <span>WiFi</span>
           </div>
         </div>
       </div>

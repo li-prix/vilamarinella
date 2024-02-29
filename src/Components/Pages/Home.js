@@ -14,7 +14,7 @@ const Home = () => {
 
       <Divider dividerHead={t("home.title")} dividerDesc={t("home.desc")} />
 
-      <div className="grid md:grid-cols-4 bg-cyan-800 py-12">
+      <div className="grid md:grid-cols-4 bg-sky-700 py-12">
         <div className="col-span-3 justify-center md:px-8">
           <div className="grid md:grid-cols-3">
             <img
@@ -26,8 +26,8 @@ const Home = () => {
               alt="pousadaterraco"
             />
             <img
-              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/acom/casa/acozinha.jpg"
-              alt="pousadacozinha"
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/acom/suites/varanda.jpg"
+              alt="pousadavaranda"
             />
           </div>
           <div className="grid md:grid-cols-2">
@@ -36,8 +36,8 @@ const Home = () => {
               alt="pousadachurrasqueira"
             />
             <img
-              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/acom/suites/varanda.jpg"
-              alt="pousadavaranda"
+              src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/acom/casa/acozinha.jpg"
+              alt="pousadacozinha"
             />
           </div>
         </div>

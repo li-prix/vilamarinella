@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <Fragment>
-      <div className="absolute w-full bg-cyan-800  text-white">
+      <div className="absolute w-full bg-sky-700  text-white">
         <div className="flex md:flex-row sm:flex-col justify-around py-5 px-4">
           <div className="sm:mb-4 lg:mb-0">
             <h1 className="text-2xl font-medium mb-3">
@@ -27,9 +27,9 @@ const Footer = () => {
               height=""
               title="map"
               style={{ border: 0 }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
             <div className="text-xs">
               Rua da Escola, s/n, Jericoacoara-CE, Brasil

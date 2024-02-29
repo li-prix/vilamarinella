@@ -80,7 +80,7 @@ const Navbar = () => {
       <div onClick={handleNav} className="md:hidden z-10">
         <FontAwesomeIcon
           icon={faBars}
-          size=""
+          size="1x"
           className="mr-4 cursor-pointer"
         />
       </div>
@@ -88,22 +88,22 @@ const Navbar = () => {
         onClick={handleNav}
         className={
           nav
-            ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-white left-0 top-0 h-screen w-3/4 bg-cyan-800/90 px-6 py-8 flex flex-col"
+            ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-white left-0 top-0 h-screen w-3/4 bg-sky-700/90 px-6 py-8 flex flex-col"
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
         }
       >
         <ul className="h-full w-full text-center pt-12">
           <li className="text-lg py-6">
-            <NavLink to="/apousada">{t("nav1.house")}</NavLink>
+            <NavLink to="/apousada">{t("nav.house")}</NavLink>
           </li>
           <li className="text-lg py-6">
-            <NavLink to="/acomodacoes">{t("nav2.accommodation")}</NavLink>
+            <NavLink to="/acomodacoes">{t("nav.accommodation")}</NavLink>
           </li>
           <li className="text-lg py-6">
-            <NavLink to="/avila">{t("nav3.village")}</NavLink>
+            <NavLink to="/avila">{t("nav.village")}</NavLink>
           </li>
           <li className="text-lg py-6">
-            <NavLink to="/reservas">{t("nav4.reservation")}</NavLink>
+            <NavLink to="/reservas">{t("nav.reservation")}</NavLink>
           </li>
           <li>
             <button onClick={() => handleChangeLanguage("en")} className="px-6">

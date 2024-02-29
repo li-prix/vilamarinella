@@ -8,14 +8,12 @@ function App() {
   return (
     <div>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/APousada" element={<APousada />} />
         <Route path="/Acomodacoes" element={<Acomodacoes />} />
         <Route path="/AVila" element={<AVila />} />
       </Routes>
-
       <Footer />
     </div>
   );

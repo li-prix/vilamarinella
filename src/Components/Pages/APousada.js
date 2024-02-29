@@ -18,7 +18,7 @@ const APousada = () => {
         />
       </div>
       <div className="w-full">
-        <div className="grid-cols-3 md:px-20 md:py-28 bg-cyan-800 lg:space-y-0 lg:grid lg:grid-rows-1">
+        <div className="grid-cols-3 md:px-14 md:py-20 lg:grid lg:grid-rows-1 bg-sky-700">
           <div className="w-full">
             <img
               src="https://vilamarinellajeri.s3.sa-east-1.amazonaws.com/apousada/fachada.jpg"
@@ -57,9 +57,9 @@ const APousada = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:p-12 sm:p-5 justify-center w-full h-full">
+      <div className="flex md:p-12 justify-center w-full h-full">
         <video
-          className="w-full h-dvh"
+          className="w-full my-20 lg:h-dvh"
           src="/video.mp4#t=0.001"
           controls
           type="video/mp4"

@@ -23,8 +23,8 @@ const Carousel = ({ slides }) => {
           transform: `translateX(-${current * 100}%)`,
         }}
       >
-        {slides.map((s) => {
-          return <img src={s} alt={s} />;
+        {slides.map((s, index) => {
+          return <img src={s} alt={s} key={index} />;
         })}
       </div>
       <div className="absolute top-0 h-full w-full justify-between item-center flex text-white">
